@@ -3,7 +3,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from classes.Routeur import Routeur
 
 
-def test_routage():
+def test_ferry():
     # test de la fonction route 
     routeur = Routeur()
     routage=routeur.route("Habitation")
@@ -24,4 +24,3 @@ def test_routage():
         routage=routeur.route("Habitation")
         attendu="Karenn"
         assert routage == attendu
-        
