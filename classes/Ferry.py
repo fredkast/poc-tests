@@ -46,3 +46,4 @@ class Ferry:
     def modifier_volume_cabine(self, nombre):
         self.nombre_cabine = nombre
         print(f"Nouveau nombre de cabine : {nombre}")
+            
